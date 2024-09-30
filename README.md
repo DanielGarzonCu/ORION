@@ -70,7 +70,8 @@ el mayor reto fue saber que el proyecto debia ser manejable desde la consola, po
 
 ## matriz visual 
 ### entre mas caracteres tiene un ascci art (asi se llama a las imagenes hechas por strings) mas resolucion tiene, por lo que resolvi hacer una matriz 4 x 4 con una franja en medio que divida a los jugadores de ambos bandos, cada jugador tiene dos lineas de jugadores, (cabe recalcar que para que esto fuese posible la matriz visual debe abarcar toda la consola)
-[![Captura-de-pantalla-2024-09-30-182018.png](https://i.postimg.cc/7YkLjYrP/Captura-de-pantalla-2024-09-30-182018.png)](https://postimg.cc/mhmRH4rK)
+
+  [![Captura-de-pantalla-2024-09-30-182018.png](https://i.postimg.cc/7YkLjYrP/Captura-de-pantalla-2024-09-30-182018.png)](https://postimg.cc/mhmRH4rK)
 
 ## ¿Como funciona?
 bueno, los jugadores se atacan en cada linea, si un jugador esta solo, hace gol, si tiene un jugador en frente le hace daño y recibe daño, ¿facil verdad?
