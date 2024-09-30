@@ -483,9 +483,32 @@ def desempate():
                 break
 ```
 
-### una funcion completa dedicada a usar cartas especiales que se utilizan en los turnos de cada jugador
-
+### una funcion completa dedicada a usar cartas especiales que se utilizan en los turnos de cada jugador para hacer cosas especiales sus funciones las podemos ver en este diccionario
+```ruby
+    cartas_especiales = {
+        "tikitaka " : "+2 en el ataque y la defensa de tus jugadores",
+        "barrabrava" : "-2 de ataque en todo el equipo rival",
+        "encara messi" : "-1 de de defensa en todo el equipo rival",
+        "tussi" : "20 porciento de probabilidad de +3 de daño sino -1 de vida",
+        "gatorade" : "hidrata a uno de tus jugadores (+1 de vida +1 de daño)",
+        "roja" : "-10 de vida (elimina) a cualquier jugador rival",
+        "amarilla" : "-3 de vida a cualquier jugador rival",
+        "mistica" : "+1 gol despues de la ronda ocho",
+        "gol fantasma" : "(10%) probabilidad de hacer un gol",
+        "chilena" : "30 porciento de probabilidad de hacer un golazo (vale x 3) sino te partes la espalda (-3 de vida )",
+        "balon de oro" : "uno de tus jugadores saca su prime (+5 de ataque +5 de vida)",
+        "bota dorada" : "uno de tus jugadores tiene un cañon en la pierna (+10 de ataque)",
+        "mano de dios" : "el dieguito baja del cielo para ayudarte (+10%) de suerte",
+        "comprar arbitro" : "haces un 'trato' con el arbitro ;) (-10%) de suerte a tu rival",
+        "cabebazo" : "(5%) de probabilidad de -10 de vida a tu rival sino roja para tu jugador y penal para tu rival",
+        "mordidita" : "(10%) de probabilidad de -8 de vida a tu rival sino roja para tu jugador y penal para tu rival",
+        "golpe" : "(20%) de probabilidad de -6 de vida a tu rival sino roja para tu jugador y penal para tu rival",
+        "barrida" : "(30%) de probabilidad de -5 de vida a tu rival sino roja para tu jugador y penal para tu rival",
+        "provocacion" : "(30%) de probabilidad de penal amarilla a tu rival pero -2 de vida a tu jugador",
+        "piscinazo" : "(30%) de probabilidad de penal para ti sino amarilla a tu jugador",
+    }
 ```
+```ruby
 
 def carta_especial (jugador : str):
 
