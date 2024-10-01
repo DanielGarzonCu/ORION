@@ -1,5 +1,5 @@
-# ORION GOAL
-Gol de orion es un proyecto que utiliza conceptos funcamentales de python, (recalcar que solo es ejecutable en versiones de python 3.10 o superiores)
+# Python F.C
+Un proyecto que utiliza conceptos funcamentales de python, (recalcar que solo es ejecutable en versiones de python 3.10 o superiores)
 
 ## sabemos que este es un jugador de futbol (aunque este en malo calidad)
 ```ruby
@@ -234,7 +234,7 @@ def elegir_equipo(jugador: str) -> dict:
 
 ### se escoge modo
 
-```
+```ruby
 def elegir_modo_juego() -> int:
     """
     Función para elegir el modo de juego.
